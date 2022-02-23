@@ -30,5 +30,3 @@ if len(sys.argv) != 2:
 else:
     res = no_same(sys.argv[1])
     print(res)
-    #str_res = " ".join(map(str, res))
-    #print(str_res)
