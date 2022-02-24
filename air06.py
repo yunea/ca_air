@@ -1,4 +1,4 @@
-#Sur chacun d'entre eux (addition et soustraction)
+#Controle de pass sanitaire
 #Exercice 7 de l'epreuve de l'air : air06.py
 import sys
 
