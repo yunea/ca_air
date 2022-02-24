@@ -59,5 +59,14 @@ if len(sys.argv) > 2:
             print(str_res)
     else:
         print("Error : arguments must be integer")
+elif len(sys.argv) == 2:
+    if is_int(sys.argv) == True:
+        if is_sorted(sys.argv) == False:
+            print(sys.argv[1]+" "+sys.argv[0])
+        else:
+            str_res = " ".join(map(str, sys.argv))
+            print(str_res)
+    else:
+        print("Error : arguments must be integer")
 else:
     print('Error : more arguments needed')
