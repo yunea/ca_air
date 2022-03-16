@@ -1,5 +1,5 @@
 #Insertion dans un tableau trié
-#Exercice 7 de l'epreuve de l'air : air06.py
+#Exercice 8 de l'epreuve de l'air : air07.py
 
 import sys
 
