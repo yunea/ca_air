@@ -110,7 +110,7 @@ def recup_status(resultats):
 
 
 def afficher(old_status):
-    #TODO : ranger les fichier dans l'ordre
+    #trier les fichiers dans l'ordre alphabetique
     status = OrderedDict(sorted(old_status.items(), key=lambda t: t[0]))
     #recuperation des noms de fichier sans .py
     file_name = []
@@ -119,7 +119,12 @@ def afficher(old_status):
         print(file_name[0]+" "+file_name[2]+" : "+stat)
 
 
+#-------------main-------------
+#test des fichiers dans le repertoire
 file_in_repository = test_file(files(), arguments())
+#execution des commandes et recuperation des resultats dans un dict
 res_cmd = exec_cmd(arguments(), file_in_repository)
+#recuperation des status de chaque execution
 res_status = recup_status(res_cmd)
+#affichage du resultat
 afficher(res_status)
