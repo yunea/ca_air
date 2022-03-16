@@ -1,5 +1,5 @@
 #Melanger deux tableaux tries
-#Exercice 8 de l'epreuve de l'air : air07.py
+#Exercice 9 de l'epreuve de l'air : air08.py
 import sys
 
 
@@ -20,18 +20,11 @@ def two_tabs(args):
 def sorted_fusion(tab1, tab2):
     l1 = len(tab1)-1
     l2 = len(tab2)-1
-    print(tab1)
-    print(tab2)
     res = []
     for t1 in tab1:
         t1 = int(t1)
         for t2 in tab2:
             t2 = int(t2)
-            print(str(t1)+" : "+str(t2))
-            print(str(in_tab(res, t1)))
-            print(str(in_tab(res, t2)))
-            print(res)
-
             if t1 > t2:
                 if in_tab(res, t1) == False and in_tab(res, t2) == False:
                     res.append(t2)
