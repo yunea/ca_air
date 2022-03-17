@@ -1,5 +1,5 @@
 #Meta exercice
-#Exercice 12 de l'epreuve de l'13.py
+#Exercice 12 de l'epreuve de l'air : air13.py
 
 import os
 import re
