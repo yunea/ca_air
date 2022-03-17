@@ -1,5 +1,6 @@
 #Le roi des tris
 #Exercice 11 de l'epreuve de l'air : air12.py
+#Pas possible avec bcp de nombre -> lie au code, la puissance de calcul ?
 
 import sys
 
